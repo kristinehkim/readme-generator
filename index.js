@@ -1,7 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
+const { writeFile } = require('fs').promises;
 // TODO: Create an array of questions for user input
-const questions = [
+const questions = () => {
+    return inquirer.prompt([
     {
         type: 'input',
         message: 'What is the title of your application?',
@@ -51,19 +53,56 @@ const questions = [
         message: 'What is your email?',
         name: 'email',
     }
-];
+]);
+}
 
-// TODO: Create a function to write README file
+const generateReadme = ({ title, description, installation, usage, contributors, test, license, github, email }) =>
+`# ${title}
+## Description 
+${description}
+## Table of Contents
+* [Installation] (#installation)
+* [Usage] (#usage)
+* [Contributors] (#contributors)
+* [Test] (#test)
+* [License] (#license)
+* [Questions] (#questions)
+## Installation 
+${installation}
+## Usage 
+${usage}
+## Contributors 
+${contributors}
+## Test 
+${test}
+## License 
+${license}
+## Questions
+## Github 
+${github}
+## Email 
+${email}
+`;
+
+
+// TODO: Create a function to write README file - for fileName put generateReadme, create const generateReadme like mini project
 function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
-async function init() {
-    const responses = await inquirer.prompt(questions)
-    console.log(responses)
+// Do all prompts in here
+// async function init() {
+//     const responses = await inquirer.prompt(questions)
+//     console.log(responses)
     // inquirer.prompt(questions).then((responses)=>{
     //     console.log(responses)
     // })
- }
+//  }
+const init = () => {
+    questions()
+    .then((responses) => writeFile('generatedreadme.md', generateReadme(responses)))
+    .then(() => console.log('Successfully wrote README'))
+    .catch((err) => console.error(err));
+};
 
 // Function call to initialize app
 init();

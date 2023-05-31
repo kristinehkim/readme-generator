@@ -1,1 +1,2 @@
-# readme-generator
+# README
+## This is an application.
