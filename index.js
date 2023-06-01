@@ -1,33 +1,33 @@
-// TODO: Include packages needed for this application
+//Packages needed for this application
 const inquirer = require('inquirer')
 const { writeFile } = require('fs').promises;
-// TODO: Create an array of questions for user input
+//An array of questions for user input
 const questions = () => {
     return inquirer.prompt([
     {
         type: 'input',
-        message: 'What is the title of your application?',
+        message: 'What is the title of your project?',
         name: 'title',
     },
     {
         type: 'input',
-        message: 'Briefly describe your application.',
+        message: 'Provide a short description explaining the what, why, and how of your project.',
         name: 'description',
     },
     {
         type: 'input',
-        message: 'Are there any extra steps needed for this installation?',
+        message: 'What are the steps required to install this project?  Provide a step-by-step description of how to get the development environment running.',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'What does the user need to know to install the application?',
+        message: 'Provide instructions and examples for use.  Include screenshots as needed.',
         name: 'usage',
     },
     {
         type: 'input',
-        message: 'Who are the contributors to the application?',
-        name: 'contributors',
+        message: 'List your collaborators. Provide links to GitHub profiles, to any third party assets, or to any tutorials you followed.',
+        name: 'contributing',
     },
     {
         type: 'input',
@@ -36,11 +36,12 @@ const questions = () => {
     },
     {
         type: 'list',
-        message: 'Are there any licenses?',
+        message: 'What licenses did you use?',
         name: 'license',
         choices: [
             'MIT',
-            'Apache'
+            'Apache [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+            'None'
         ]
     },
     {
@@ -61,12 +62,12 @@ const generateReadme = ({ title, description, installation, usage, contributors,
 ## Description 
 ${description}
 ## Table of Contents
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Contributors] (#contributors)
-* [Test] (#test)
-* [License] (#license)
-* [Questions] (#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Test](#test)
+* [License](#license)
+* [Questions](#questions)
 ## Installation 
 ${installation}
 ## Usage 
@@ -78,15 +79,14 @@ ${test}
 ## License 
 ${license}
 ## Questions
-## Github 
-${github}
-## Email 
+- [Github profile](https://github.com/${github})
+- Feel free to email me with any additional questions at
 ${email}
 `;
 
 
 // TODO: Create a function to write README file - for fileName put generateReadme, create const generateReadme like mini project
-function writeToFile(fileName, data) { }
+// function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
 // Do all prompts in here
