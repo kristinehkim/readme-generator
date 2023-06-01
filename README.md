@@ -1,6 +1,6 @@
-# Project Name
+# Readme Generator
 > Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Video demonstration [_here_](https://drive.google.com/file/d/1nuTFrsrxFprEZKNy_JPYGSRvRQCYY3le/view). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -25,8 +25,8 @@
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
+- Node - version 1.0
+- Inquirer - version 2.0
 - Tech 3 - version 3.0
 
 
@@ -46,7 +46,7 @@ List the ready features here:
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
-
+In order to use this application, Node, Inquirer 8.2.4, and the File System module are required.
 
 ## Usage
 How does one go about using it?
@@ -79,7 +79,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by Kristine Kim.  Feel free to contact me at kristinehkim@gmail.com!
 
 
 <!-- Optional -->
