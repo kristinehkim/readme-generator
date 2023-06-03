@@ -3,7 +3,6 @@ const inquirer = require('inquirer')
 const { writeFile } = require('fs').promises;
 const generateReadme = require ('./utils/generateMarkdown')
 const questions = require ('./utils/questions')
-//An array of questions for user input
 
 const init = async () => {
     // questions()

@@ -26,8 +26,7 @@
 
 ## Technologies Used
 - Node - version 1.0
-- Inquirer - version 2.0
-- Tech 3 - version 3.0
+- Inquirer - version 8.2.4
 
 
 ## Features
@@ -72,10 +71,7 @@ To do:
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- Many thanks to my instructor, Michael Pacheco, and the TAs, Nirav and Julius.
 
 
 ## Contact
