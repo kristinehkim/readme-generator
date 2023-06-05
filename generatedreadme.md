@@ -1,7 +1,7 @@
 # README Generator
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 ## Description 
-This is a README generator created by using a command-line application.
+This is a description.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,18 +10,18 @@ This is a README generator created by using a command-line application.
 * [License](#license)
 * [Questions](#questions)
 ## Installation 
-k
+These are the steps.
 ## Usage 
 To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 ![Example screenshot](./img/screenshot.png)
 
-k
+Here are the instructions.
 ## Contributing 
-k
+Here are my collaborators.
 ## Test 
-node index.js
+These commands.
 ## License 
-This project is licensed under Apache license.
+This project is licensed under MIT license.
 ## Questions
 - Github profile: https://github.com/kristinehkim
 - Feel free to email me with any additional questions at

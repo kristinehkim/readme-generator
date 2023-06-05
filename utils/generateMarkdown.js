@@ -1,9 +1,9 @@
-// Function using a switch statement that returns a license badge based on which license is passed in
+// Function using a switch statement that returns the license chosen based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     switch (license) {
         case 'MIT':
-            return `This project is licensed under MIT license`;
+            return `This project is licensed under MIT license.`;
         case 'Apache':
             return `This project is licensed under Apache license.`;
         case 'Eclipse':
@@ -12,7 +12,7 @@ function renderLicenseLink(license) {
             return 'None';
     }
 }
-
+// Function using a switch statement that returns a license badge based on which license is passed
 function renderLicenseBadge(license) {
     switch (license) {
         case 'MIT':
@@ -28,7 +28,7 @@ function renderLicenseBadge(license) {
 
 // Function to generate README
 const generateReadme = ({ title, description, installation, usage, contributing, test, license, github, email }) =>
-    `# ${title}
+`# ${title}
 ${renderLicenseBadge(license)}
 ## Description 
 ${description}

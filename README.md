@@ -1,6 +1,6 @@
 # Readme Generator
 > This README generator is so the user can easily and quickly create a professional README file using a command-line application giving the project creator more time to devote to working on the project.
-> Video demonstration [_here_](https://drive.google.com/file/d/1nuTFrsrxFprEZKNy_JPYGSRvRQCYY3le/view). <!-- If you have the project hosted somewhere, include the link here. -->
+> Video demonstration [_here_](https://drive.google.com/file/d/1JCqUFAdLN1saT5FLXfbMuUh-UcZnOgR9/view). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -45,8 +45,8 @@ In order to use this application, Node (Node package modules), Inquirer 8.2.4, a
 ## Usage
 In order to invoke the command-line application, use the following command:
 
-`npm init -y`
-`npm i inquirer@8.2.4`
+`npm i`
+
 `node index.js`
 
 
@@ -55,7 +55,6 @@ Project is: _in progress_.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
 - Improvement to be done 1

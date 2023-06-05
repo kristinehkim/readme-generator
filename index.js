@@ -1,6 +1,7 @@
 //Packages needed for this application
 const inquirer = require('inquirer')
 const { writeFile } = require('fs').promises;
+// imported files
 const generateReadme = require ('./utils/generateMarkdown')
 const questions = require ('./utils/questions')
 
@@ -12,7 +13,7 @@ const init = async () => {
     try {
         const responses = await inquirer.prompt(questions)
         writeFile('generatedreadme.md', generateReadme(responses))
-        console.log('Successfully wrote README')
+        console.log('Successfully generated README!')
     }
     catch (err) {
         console.error(err)
