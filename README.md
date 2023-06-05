@@ -54,17 +54,6 @@ In order to invoke the command-line application, use the following command:
 Project is: _in progress_.
 
 
-## Room for Improvement
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
 ## Acknowledgements
 - Many thanks to my instructor, Michael Pacheco, the TAs, Nirav and Julius, and my tutor Dane Shrewsbury.
 
