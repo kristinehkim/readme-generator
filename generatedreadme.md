@@ -1,6 +1,7 @@
-# Readme Generator
+# README Generator
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Description 
-I made this application as a challenge assignment for my bootcamp course.
+This is a README generator created by using a command-line application.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -9,18 +10,18 @@ I made this application as a challenge assignment for my bootcamp course.
 * [License](#license)
 * [Questions](#questions)
 ## Installation 
-Here are the steps to install this project.  Please follow the step by step directions.
+k
 ## Usage 
 To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 ![Example screenshot](./img/screenshot.png)
 
-This is how you use my application.  Take a look at the screenshot.
+k
 ## Contributing 
-My collaborators are my instructor and TAs.
+k
 ## Test 
-Node and Inquirer will be needed and npm commands.
+node index.js
 ## License 
-This project is licensed under MIT license: [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under Apache license.
 ## Questions
 - Github profile: https://github.com/kristinehkim
 - Feel free to email me with any additional questions at
